@@ -1,0 +1,30 @@
+{
+  "name": "MongoSampler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graboskyc/MongoSampler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graboskyc/MongoSampler/issues"
+  },
+  "homepage": "https://github.com/graboskyc/MongoSampler#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dot-wild": "^3.0.1",
+    "install": "^0.12.2",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.2.3",
+    "mongodb-collection-sample": "^4.3.2",
+    "mongodb-schema": "^8.2.3",
+    "npm": "^6.9.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+    "_id": {
+        "$oid": "5bc730e5f5f13220ba778732"
+    },
+    "beer_name": "Rally Drum Red Ale",
+    "brewery_name": "Great Lakes Brewing Company",
+    "beer_type": "Red Ale - American Amber / Red",
+    "beer_abv": {
+        "$numberDouble": "5"
+    },
+    "beer_ibu": {
+        "$numberDouble": "45"
+    },
+    "comment": "",
+    "venue_name": "Blue Monkey Tavern",
+    "venue_city": "Merchantville",
+    "venue_state": "NJ",
+    "venue_country": "United States",
+    "venue_lat": "39.9522",
+    "venue_lng": "-75.0492",
+    "rating_score": {
+        "$numberDouble": "3"
+    },
+    "created_at": {
+        "$date": {
+            "$numberLong": "1372537080000"
+        }
+    },
+    "checkin_url": "https://untappd.com/c/35477076",
+    "beer_url": "https://untappd.com/beer/125971",
+    "brewery_url": "https://untappd.com/brewery/3125",
+    "brewery_country": "United States",
+    "brewery_city": "Cleveland",
+    "brewery_state": "OH",
+    "flavor_profiles": "",
+    "purchase_venue": "",
+    "serving_type": "",
+    "checkin_id": "35477076",
+    "bid": "125971",
+    "brewery_id": "3125",
+    "photo_url": null,
+    "location": {
+        "type": "Point",
+        "coordinates": [{
+            "$numberDouble": "-75.0492"
+        }, {
+            "$numberDouble": "39.9522"
+        }]
+    }
+}
