@@ -7,6 +7,6 @@ For performance considerations visit [the npm page](https://www.npmjs.com/packag
 ![](CompassScreenshot.png)
 
 # Use
-Edit `index.js` to put in database, collection, and connection string. Then run the `index.js` and the output will look similar to [SampleOutput.json](SampleOutput.json) for a given collection whose documents look like [SampleDoc.json](SampleDoc.json).
+Edit `index.js` to put in database, collection, and connection string. Then run the `index.js` and the output will look similar to [SampleOut.json](SampleOut.json) for a given collection whose documents look like [SampleDoc.json](SampleDoc.json).
 
 The `removeValues` boolean will determine whether to pass back all possible values or not.
