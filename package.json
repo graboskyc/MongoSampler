@@ -19,6 +19,7 @@
   "homepage": "https://github.com/graboskyc/MongoSampler#readme",
   "dependencies": {
     "chalk": "^2.4.2",
+    "command-line-args": "^5.1.1",
     "dot-wild": "^3.0.1",
     "install": "^0.12.2",
     "lodash": "^4.17.11",
