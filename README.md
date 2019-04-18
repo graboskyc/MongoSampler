@@ -27,8 +27,9 @@ A simple application to see what keys exist in a MongoDB collection that didn't 
                 -d --db                 Database name
                 -c --collection         Collection name
                 -v --values             If supplied, include values in response
-                -s --sample             If included only do a sample of 1000 docs
-                -h --help               If included print help and quit
+                -s --sample             If included, only do a sample of specified number of docs
+                -a --all                If included, ignores db and collection flags and finds all dbs and collections
+                -h --help               If included, print help and quit
 ```
 
 # Editing
