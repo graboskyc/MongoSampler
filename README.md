@@ -7,12 +7,29 @@ For performance considerations visit [the npm page](https://www.npmjs.com/packag
 ![](CompassScreenshot.png)
 
 # Usage
-Basic Usage: 
-`graboskycMBP:MongoSampler graboskyc$ ./index.js --host mongodb+srv://username:passwd@host --db dbname --collection colname`
+## From Source:
+* Download repo and extract
+* Uses libraries `mongodb-schema`, `chalk`, `mongodb`
+* `$ ./index.js --host mongodb+srv://username:passwd@host --db dbname --collection colname`
 
-Add the `--values` flag if you want to include values into the JSON output
+## From Binary
+* Download release for Windows, Mac, Linux
+* `$ ./MongoSampler-macos --host mongodb+srv://username:passwd@host --db dbname --collection colname`
 
-Use the `--sample` flag if instead of using all documents in the collection and instead use a random 1000 documents
+## Help
+```
+MongoSampler
+
+A simple application to see what keys exist in a MongoDB collection that didn't enforce a schmea.
+
+        Options:
+                -m --host               Connection string including mongdb://, username, password, no trailing /
+                -d --db                 Database name
+                -c --collection         Collection name
+                -v --values             If supplied, include values in response
+                -s --sample             If included only do a sample of 1000 docs
+                -h --help               If included print help and quit
+```
 
 # Editing
 Edit `index.js` to put in database, collection, and connection string. Then run the `index.js` and the output will look similar to [SampleOut.json](SampleOut.json) for a given collection whose documents look like [SampleDoc.json](SampleDoc.json).
