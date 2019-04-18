@@ -12,13 +12,24 @@ var keepValues = false;
 var sample = false;
 
 const optionDefinitions = [
-    { name: 'host', alias: 'h', type: String, description:"Connection string including mongdb://, username, password, no trailing /" },
+    { name: 'host', alias: 'm', type: String, description:"Connection string including mongdb://, username, password, no trailing /" },
     { name: 'db', alias: 'd', type: String, description:"Database name" },
     { name: 'collection', alias: 'c', type: String, description:"Collection name" },
     { name: 'values', alias: 'v', type: Boolean, description:"If supplied, include values in response" },
-    { name: 'sample', alias: 's', type: Boolean, description:"If included only do a sample of 1000 docs" }
+    { name: 'sample', alias: 's', type: Boolean, description:"If included only do a sample of 1000 docs" },
+    { name: 'help', alias: 'h', type: Boolean, description:"If included print help and quit" }
   ]
 const options = commandLineArgs(optionDefinitions)
+
+if(options.hasOwnProperty('help')) {
+    console.log(chalk.yellow("\nMongoSampler\n"));
+    console.log("A simple application to see what keys exist in a MongoDB collection that didn't enforce a schmea.\n");
+    console.log("\tOptions:");
+    for(i=0; i<optionDefinitions.length; i++) {
+        console.log("\t\t-"+optionDefinitions[i].alias+" --"+optionDefinitions[i].name+" \t\t"+optionDefinitions[i].description);
+    }
+    return process.exit(0);
+}
 
 if (options.hasOwnProperty('db')) { dbName = options.db; }
 if (options.hasOwnProperty('collection')) { colName = options.collection; }
