@@ -9,7 +9,7 @@ For performance considerations visit [the npm page](https://www.npmjs.com/packag
 # Usage
 ## From Source:
 * Download repo and extract
-* Uses libraries `mongodb-schema`, `chalk`, `mongodb`
+* Uses libraries `mongodb-schema`, `chalk`, `mongodb`, `command-line-args`
 * `$ ./index.js --host mongodb+srv://username:passwd@host --db dbname --collection colname`
 
 ## From Binary
