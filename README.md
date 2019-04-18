@@ -35,3 +35,5 @@ A simple application to see what keys exist in a MongoDB collection that didn't 
 Edit `index.js` to put in database, collection, and connection string. Then run the `index.js` and the output will look similar to [SampleOut.json](SampleOut.json) for a given collection whose documents look like [SampleDoc.json](SampleDoc.json).
 
 The `removeValues` boolean will determine whether to pass back all possible values or not.
+
+This was packaged using the package `pkg` with command `pkg index.js`
