@@ -1,771 +1,779 @@
 {
-  "fields": [
+  "results": [
     {
-      "name": "_id",
-      "path": "_id",
-      "count": 736,
-      "types": [
-        {
-          "name": "ObjectID",
-          "bsonType": "ObjectID",
-          "path": "_id",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 736,
-          "has_duplicates": false
-        }
-      ],
-      "total_count": 736,
-      "type": "ObjectID",
-      "has_duplicates": false,
-      "probability": 1
-    },
-    {
-      "name": "beer_abv",
-      "path": "beer_abv",
-      "count": 736,
-      "types": [
-        {
-          "name": "Number",
-          "bsonType": "Number",
-          "path": "beer_abv",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 18,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "Number",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "beer_ibu",
-      "path": "beer_ibu",
-      "count": 736,
-      "types": [
-        {
-          "name": "Number",
-          "bsonType": "Number",
-          "path": "beer_ibu",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 63,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "Number",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "beer_name",
-      "path": "beer_name",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "beer_name",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 98,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "beer_type",
-      "path": "beer_type",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "beer_type",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 59,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "beer_url",
-      "path": "beer_url",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "beer_url",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 97,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "bid",
-      "path": "bid",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "bid",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 98,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "brewery_city",
-      "path": "brewery_city",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "brewery_city",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 70,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "brewery_country",
-      "path": "brewery_country",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "brewery_country",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 10,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "brewery_id",
-      "path": "brewery_id",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "brewery_id",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 73,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "brewery_name",
-      "path": "brewery_name",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "brewery_name",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 83,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "brewery_state",
-      "path": "brewery_state",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "brewery_state",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 38,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "brewery_url",
-      "path": "brewery_url",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "brewery_url",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 79,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "checkin_id",
-      "path": "checkin_id",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "checkin_id",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 100,
-          "has_duplicates": false
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": false,
-      "probability": 1
-    },
-    {
-      "name": "checkin_url",
-      "path": "checkin_url",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "checkin_url",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 100,
-          "has_duplicates": false
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": false,
-      "probability": 1
-    },
-    {
-      "name": "comment",
-      "path": "comment",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "comment",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 26,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "created_at",
-      "path": "created_at",
-      "count": 736,
-      "types": [
-        {
-          "name": "Date",
-          "bsonType": "Date",
-          "path": "created_at",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 736,
-          "has_duplicates": false
-        }
-      ],
-      "total_count": 736,
-      "type": "Date",
-      "has_duplicates": false,
-      "probability": 1
-    },
-    {
-      "name": "flavor_profiles",
-      "path": "flavor_profiles",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "flavor_profiles",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 5,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "location",
-      "path": "location",
-      "count": 500,
-      "types": [
-        {
-          "name": "Document",
-          "bsonType": "Document",
-          "path": "location",
-          "count": 500,
-          "fields": [
-            {
-              "name": "coordinates",
-              "path": "location.coordinates",
-              "count": 500,
-              "types": [
-                {
-                  "name": "Array",
-                  "bsonType": "Array",
-                  "path": "location.coordinates",
-                  "count": 500,
-                  "types": [
-                    {
-                      "name": "Number",
-                      "bsonType": "Number",
-                      "path": "location.coordinates",
-                      "count": 1000,
-                      "total_count": 0,
-                      "probability": 1,
-                      "unique": 384,
-                      "has_duplicates": true
-                    }
-                  ],
-                  "total_count": 1000,
-                  "probability": 1,
-                  "average_length": 2
-                }
-              ],
-              "total_count": 500,
-              "type": "Array",
-              "has_duplicates": false,
-              "probability": 1
-            },
-            {
-              "name": "type",
-              "path": "location.type",
-              "count": 500,
-              "types": [
-                {
-                  "name": "String",
-                  "bsonType": "String",
-                  "path": "location.type",
-                  "count": 500,
-                  "total_count": 0,
-                  "probability": 1,
-                  "unique": 1,
-                  "has_duplicates": true
-                }
-              ],
-              "total_count": 500,
-              "type": "String",
-              "has_duplicates": true,
-              "probability": 1
-            }
-          ],
-          "total_count": 0,
-          "probability": 0.6793478260869565
-        },
-        {
-          "name": "Undefined",
-          "type": "Undefined",
-          "path": "location",
-          "count": 236,
-          "total_count": 0,
-          "probability": 0.32065217391304346,
-          "unique": 1,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": [
-        "Document",
-        "Undefined"
-      ],
-      "has_duplicates": true,
-      "probability": 0.6793478260869565
-    },
-    {
-      "name": "photo_url",
-      "path": "photo_url",
-      "count": 736,
-      "types": [
-        {
-          "name": "Null",
-          "bsonType": "Null",
-          "path": "photo_url",
-          "count": 502,
-          "total_count": 0,
-          "probability": 0.6820652173913043,
-          "unique": 1,
-          "has_duplicates": true
-        },
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "photo_url",
-          "count": 234,
-          "total_count": 0,
-          "probability": 0.3179347826086957,
-          "unique": 100,
-          "has_duplicates": false
-        }
-      ],
-      "total_count": 736,
-      "type": [
-        "Null",
-        "String"
-      ],
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "purchase_venue",
-      "path": "purchase_venue",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "purchase_venue",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 1,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "rating_score",
-      "path": "rating_score",
-      "count": 736,
-      "types": [
-        {
-          "name": "Number",
-          "bsonType": "Number",
-          "path": "rating_score",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 7,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "Number",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "serving_type",
-      "path": "serving_type",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "serving_type",
-          "count": 736,
-          "total_count": 0,
-          "probability": 1,
-          "unique": 5,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": "String",
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "venue_city",
-      "path": "venue_city",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "venue_city",
-          "count": 500,
-          "total_count": 0,
-          "probability": 0.6793478260869565,
-          "unique": 38,
-          "has_duplicates": true
-        },
-        {
-          "name": "Null",
-          "bsonType": "Null",
-          "path": "venue_city",
-          "count": 236,
-          "total_count": 0,
-          "probability": 0.32065217391304346,
-          "unique": 1,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": [
-        "String",
-        "Null"
-      ],
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "venue_country",
-      "path": "venue_country",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "venue_country",
-          "count": 500,
-          "total_count": 0,
-          "probability": 0.6793478260869565,
-          "unique": 1,
-          "has_duplicates": true
-        },
-        {
-          "name": "Null",
-          "bsonType": "Null",
-          "path": "venue_country",
-          "count": 236,
-          "total_count": 0,
-          "probability": 0.32065217391304346,
-          "unique": 1,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": [
-        "String",
-        "Null"
-      ],
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "venue_lat",
-      "path": "venue_lat",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "venue_lat",
-          "count": 500,
-          "total_count": 0,
-          "probability": 0.6793478260869565,
-          "unique": 60,
-          "has_duplicates": true
-        },
-        {
-          "name": "Null",
-          "bsonType": "Null",
-          "path": "venue_lat",
-          "count": 236,
-          "total_count": 0,
-          "probability": 0.32065217391304346,
-          "unique": 1,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": [
-        "String",
-        "Null"
-      ],
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "venue_lng",
-      "path": "venue_lng",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "venue_lng",
-          "count": 500,
-          "total_count": 0,
-          "probability": 0.6793478260869565,
-          "unique": 63,
-          "has_duplicates": true
-        },
-        {
-          "name": "Null",
-          "bsonType": "Null",
-          "path": "venue_lng",
-          "count": 236,
-          "total_count": 0,
-          "probability": 0.32065217391304346,
-          "unique": 1,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": [
-        "String",
-        "Null"
-      ],
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "venue_name",
-      "path": "venue_name",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "venue_name",
-          "count": 500,
-          "total_count": 0,
-          "probability": 0.6793478260869565,
-          "unique": 61,
-          "has_duplicates": true
-        },
-        {
-          "name": "Null",
-          "bsonType": "Null",
-          "path": "venue_name",
-          "count": 236,
-          "total_count": 0,
-          "probability": 0.32065217391304346,
-          "unique": 1,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": [
-        "String",
-        "Null"
-      ],
-      "has_duplicates": true,
-      "probability": 1
-    },
-    {
-      "name": "venue_state",
-      "path": "venue_state",
-      "count": 736,
-      "types": [
-        {
-          "name": "String",
-          "bsonType": "String",
-          "path": "venue_state",
-          "count": 500,
-          "total_count": 0,
-          "probability": 0.6793478260869565,
-          "unique": 15,
-          "has_duplicates": true
-        },
-        {
-          "name": "Null",
-          "bsonType": "Null",
-          "path": "venue_state",
-          "count": 236,
-          "total_count": 0,
-          "probability": 0.32065217391304346,
-          "unique": 1,
-          "has_duplicates": true
-        }
-      ],
-      "total_count": 736,
-      "type": [
-        "String",
-        "Null"
-      ],
-      "has_duplicates": true,
-      "probability": 1
+      "database": "untappd",
+      "collection": "checkins",
+      "schema": {
+        "fields": [
+          {
+            "name": "_id",
+            "path": "_id",
+            "count": 736,
+            "types": [
+              {
+                "name": "ObjectID",
+                "bsonType": "ObjectID",
+                "path": "_id",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 736,
+                "has_duplicates": false
+              }
+            ],
+            "total_count": 736,
+            "type": "ObjectID",
+            "has_duplicates": false,
+            "probability": 1
+          },
+          {
+            "name": "beer_abv",
+            "path": "beer_abv",
+            "count": 736,
+            "types": [
+              {
+                "name": "Number",
+                "bsonType": "Number",
+                "path": "beer_abv",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 18,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "Number",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "beer_ibu",
+            "path": "beer_ibu",
+            "count": 736,
+            "types": [
+              {
+                "name": "Number",
+                "bsonType": "Number",
+                "path": "beer_ibu",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 63,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "Number",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "beer_name",
+            "path": "beer_name",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "beer_name",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 98,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "beer_type",
+            "path": "beer_type",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "beer_type",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 60,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "beer_url",
+            "path": "beer_url",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "beer_url",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 95,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "bid",
+            "path": "bid",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "bid",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 95,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "brewery_city",
+            "path": "brewery_city",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "brewery_city",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 69,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "brewery_country",
+            "path": "brewery_country",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "brewery_country",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 10,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "brewery_id",
+            "path": "brewery_id",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "brewery_id",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 80,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "brewery_name",
+            "path": "brewery_name",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "brewery_name",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 75,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "brewery_state",
+            "path": "brewery_state",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "brewery_state",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 39,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "brewery_url",
+            "path": "brewery_url",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "brewery_url",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 80,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "checkin_id",
+            "path": "checkin_id",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "checkin_id",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 100,
+                "has_duplicates": false
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": false,
+            "probability": 1
+          },
+          {
+            "name": "checkin_url",
+            "path": "checkin_url",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "checkin_url",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 100,
+                "has_duplicates": false
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": false,
+            "probability": 1
+          },
+          {
+            "name": "comment",
+            "path": "comment",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "comment",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 25,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "created_at",
+            "path": "created_at",
+            "count": 736,
+            "types": [
+              {
+                "name": "Date",
+                "bsonType": "Date",
+                "path": "created_at",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 736,
+                "has_duplicates": false
+              }
+            ],
+            "total_count": 736,
+            "type": "Date",
+            "has_duplicates": false,
+            "probability": 1
+          },
+          {
+            "name": "flavor_profiles",
+            "path": "flavor_profiles",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "flavor_profiles",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 2,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "location",
+            "path": "location",
+            "count": 500,
+            "types": [
+              {
+                "name": "Document",
+                "bsonType": "Document",
+                "path": "location",
+                "count": 500,
+                "fields": [
+                  {
+                    "name": "coordinates",
+                    "path": "location.coordinates",
+                    "count": 500,
+                    "types": [
+                      {
+                        "name": "Array",
+                        "bsonType": "Array",
+                        "path": "location.coordinates",
+                        "count": 500,
+                        "types": [
+                          {
+                            "name": "Number",
+                            "bsonType": "Number",
+                            "path": "location.coordinates",
+                            "count": 1000,
+                            "total_count": 0,
+                            "probability": 1,
+                            "unique": 384,
+                            "has_duplicates": true
+                          }
+                        ],
+                        "total_count": 1000,
+                        "probability": 1,
+                        "average_length": 2
+                      }
+                    ],
+                    "total_count": 500,
+                    "type": "Array",
+                    "has_duplicates": false,
+                    "probability": 1
+                  },
+                  {
+                    "name": "type",
+                    "path": "location.type",
+                    "count": 500,
+                    "types": [
+                      {
+                        "name": "String",
+                        "bsonType": "String",
+                        "path": "location.type",
+                        "count": 500,
+                        "total_count": 0,
+                        "probability": 1,
+                        "unique": 1,
+                        "has_duplicates": true
+                      }
+                    ],
+                    "total_count": 500,
+                    "type": "String",
+                    "has_duplicates": true,
+                    "probability": 1
+                  }
+                ],
+                "total_count": 0,
+                "probability": 0.6793478260869565
+              },
+              {
+                "name": "Undefined",
+                "type": "Undefined",
+                "path": "location",
+                "count": 236,
+                "total_count": 0,
+                "probability": 0.32065217391304346,
+                "unique": 1,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": [
+              "Document",
+              "Undefined"
+            ],
+            "has_duplicates": true,
+            "probability": 0.6793478260869565
+          },
+          {
+            "name": "photo_url",
+            "path": "photo_url",
+            "count": 736,
+            "types": [
+              {
+                "name": "Null",
+                "bsonType": "Null",
+                "path": "photo_url",
+                "count": 502,
+                "total_count": 0,
+                "probability": 0.6820652173913043,
+                "unique": 1,
+                "has_duplicates": true
+              },
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "photo_url",
+                "count": 234,
+                "total_count": 0,
+                "probability": 0.3179347826086957,
+                "unique": 100,
+                "has_duplicates": false
+              }
+            ],
+            "total_count": 736,
+            "type": [
+              "Null",
+              "String"
+            ],
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "purchase_venue",
+            "path": "purchase_venue",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "purchase_venue",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 1,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "rating_score",
+            "path": "rating_score",
+            "count": 736,
+            "types": [
+              {
+                "name": "Number",
+                "bsonType": "Number",
+                "path": "rating_score",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 7,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "Number",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "serving_type",
+            "path": "serving_type",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "serving_type",
+                "count": 736,
+                "total_count": 0,
+                "probability": 1,
+                "unique": 5,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": "String",
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "venue_city",
+            "path": "venue_city",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "venue_city",
+                "count": 500,
+                "total_count": 0,
+                "probability": 0.6793478260869565,
+                "unique": 33,
+                "has_duplicates": true
+              },
+              {
+                "name": "Null",
+                "bsonType": "Null",
+                "path": "venue_city",
+                "count": 236,
+                "total_count": 0,
+                "probability": 0.32065217391304346,
+                "unique": 1,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": [
+              "String",
+              "Null"
+            ],
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "venue_country",
+            "path": "venue_country",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "venue_country",
+                "count": 500,
+                "total_count": 0,
+                "probability": 0.6793478260869565,
+                "unique": 2,
+                "has_duplicates": true
+              },
+              {
+                "name": "Null",
+                "bsonType": "Null",
+                "path": "venue_country",
+                "count": 236,
+                "total_count": 0,
+                "probability": 0.32065217391304346,
+                "unique": 1,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": [
+              "String",
+              "Null"
+            ],
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "venue_lat",
+            "path": "venue_lat",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "venue_lat",
+                "count": 500,
+                "total_count": 0,
+                "probability": 0.6793478260869565,
+                "unique": 65,
+                "has_duplicates": true
+              },
+              {
+                "name": "Null",
+                "bsonType": "Null",
+                "path": "venue_lat",
+                "count": 236,
+                "total_count": 0,
+                "probability": 0.32065217391304346,
+                "unique": 1,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": [
+              "String",
+              "Null"
+            ],
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "venue_lng",
+            "path": "venue_lng",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "venue_lng",
+                "count": 500,
+                "total_count": 0,
+                "probability": 0.6793478260869565,
+                "unique": 56,
+                "has_duplicates": true
+              },
+              {
+                "name": "Null",
+                "bsonType": "Null",
+                "path": "venue_lng",
+                "count": 236,
+                "total_count": 0,
+                "probability": 0.32065217391304346,
+                "unique": 1,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": [
+              "String",
+              "Null"
+            ],
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "venue_name",
+            "path": "venue_name",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "venue_name",
+                "count": 500,
+                "total_count": 0,
+                "probability": 0.6793478260869565,
+                "unique": 63,
+                "has_duplicates": true
+              },
+              {
+                "name": "Null",
+                "bsonType": "Null",
+                "path": "venue_name",
+                "count": 236,
+                "total_count": 0,
+                "probability": 0.32065217391304346,
+                "unique": 1,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": [
+              "String",
+              "Null"
+            ],
+            "has_duplicates": true,
+            "probability": 1
+          },
+          {
+            "name": "venue_state",
+            "path": "venue_state",
+            "count": 736,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "venue_state",
+                "count": 500,
+                "total_count": 0,
+                "probability": 0.6793478260869565,
+                "unique": 18,
+                "has_duplicates": true
+              },
+              {
+                "name": "Null",
+                "bsonType": "Null",
+                "path": "venue_state",
+                "count": 236,
+                "total_count": 0,
+                "probability": 0.32065217391304346,
+                "unique": 1,
+                "has_duplicates": true
+              }
+            ],
+            "total_count": 736,
+            "type": [
+              "String",
+              "Null"
+            ],
+            "has_duplicates": true,
+            "probability": 1
+          }
+        ],
+        "count": 736
+      }
     }
-  ],
-  "count": 736
+  ]
 }
