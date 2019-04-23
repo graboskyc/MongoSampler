@@ -73,7 +73,9 @@ function analyzeSchema(namespace, client, pipeline) {
   var dbname = namespace.split('.')[0];
   var colname = namespace.split('.')[1];
   var db = client.db(dbname);
-  parseSchema(db.collection(colname).aggregate(pipeline), function(err, schema) {
+  var op ={};
+  if(!keepValues) { op = {'storeValues':false}; }
+  parseSchema(db.collection(colname).aggregate(pipeline), op, function(err, schema) {
       if (err) return console.error(chalk.red(err));
       var newobj = {};
       newobj.database = dbname;
